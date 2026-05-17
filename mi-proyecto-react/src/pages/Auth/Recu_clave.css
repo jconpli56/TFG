@@ -1,0 +1,179 @@
+#contenedor-clave {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+.recu-validando {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: auto;
+  min-height: 25%;
+  border-radius: 15px;
+  border: solid;
+  background-color: rgb(224, 224, 224);
+  border-color: rgb(101, 96, 96);
+  padding: 20px;
+  text-align: center;
+}
+
+.recu-validando p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.recu-token-invalido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: auto;
+  min-height: 30%;
+  border-radius: 15px;
+  border: solid;
+  background-color: rgb(224, 224, 224);
+  border-color: rgb(101, 96, 96);
+  padding: 20px;
+  text-align: center;
+}
+
+.recu-token-invalido h2 {
+  color: rgb(220, 53, 69);
+  margin: 0 0 15px 0;
+}
+
+.recu-token-invalido p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.recu-exito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: auto;
+  min-height: 30%;
+  border-radius: 15px;
+  border: solid;
+  background-color: rgb(224, 224, 224);
+  border-color: rgb(101, 96, 96);
+  padding: 20px;
+  text-align: center;
+}
+
+.recu-exito h2 {
+  color: rgb(3, 141, 134);
+  margin: 0 0 15px 0;
+}
+
+.recu-exito p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.recu-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: auto;
+  min-height: 50%;
+  border-radius: 15px;
+  border: solid;
+  background-color: rgb(224, 224, 224);
+  border-color: rgb(101, 96, 96);
+  padding: 20px;
+}
+
+.recu-formulario h2 {
+  color: rgb(3, 141, 134);
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.recu-formulario form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.recu-grupo-entrada {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.recu-grupo-entrada label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  width: 70%;
+}
+
+.recu-grupo-entrada input {
+  width: 70%;
+  height: 40%;
+  border-radius: 10px;
+  border: solid;
+  border-color: rgb(101, 96, 96);
+  text-align: left;
+  padding: 2%;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.recu-grupo-entrada input:focus {
+  outline: none;
+  border-color: rgb(3, 141, 134);
+  background-color: #f9f9f9;
+}
+
+.recu-error {
+  color: rgb(220, 53, 69);
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  width: 70%;
+}
+
+.recu-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 30%;
+  border-radius: 15px;
+  border: solid;
+  border-color: rgb(101, 96, 96);
+  font-size: 15px;
+  background-color: rgb(3, 141, 134);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 10px;
+}
+
+.recu-boton:hover:not(:disabled) {
+  background-color: rgb(2, 110, 104);
+}
+
+.recu-boton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,224 @@
+#ManuL{
+  width: 12%;
+  height: 80%;
+  margin-right: 3%;
+  background-color: rgb(3, 141, 134);
+}
+#Container{
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+#trello{
+    width:  100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: auto;
+   margin-top: 2%;
+    
+    text-align: center;
+    
+}
+.columclas{
+    background-color: rgb(224, 224, 224);
+    border-radius: 15px;
+    border: solid;
+    border-color: rgb(101, 96, 96);
+
+}
+#Taskinit{
+    display: flex;
+    grid-column: 1;
+    width: 85%;
+    height: 90%;
+    flex-direction: column;
+}
+#Taskprogest{
+    display: flex;
+    grid-column: 2;
+    width: 85%;
+    height: 90%;
+    flex-direction: column;
+
+}
+
+#Taskend{
+    display: flex;
+    grid-column: 3;
+    width: 85%;
+    height: 90%;
+    flex-direction: column;
+   
+}
+
+#inith1{
+    margin-top: 10%;
+    
+      overflow-y: auto;       
+    overflow-x: hidden; 
+}
+
+#progh1{
+    margin-top: 10%;
+       overflow-y: auto;       
+    overflow-x: hidden; 
+    
+}
+
+#finh1{
+    margin-top: 10%;
+       overflow-y: auto;       
+    overflow-x: hidden; 
+}
+#tasks_space{
+    display: flex;
+    flex-direction: column;
+    
+    width: 82%;
+    height: 100%;
+}
+#menu_Colum{
+    display: flex;
+    width: 100%;
+    height: 10%;
+   gap: 10%;
+    align-items: center;
+   
+}
+#menu_Colum h1{
+    margin-top: 5%;
+    width: 60%;
+    height: 90%;
+   justify-content: center;
+
+}
+#header_Semanal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+}
+
+#header_Semanal button{
+    width: 50%;
+    height: 25%;
+}
+#btnaddtask{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius:100%;
+    border: solid 15px;
+    background-color: rgb(3, 141, 134);
+    border-color: rgb(101, 96, 96);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#Modal_add_task{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 25, 25, 0.727);
+    backdrop-filter: blur(5px);
+    align-items: center;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 9999 !important;
+    justify-content: center;
+     flex-direction: column;
+     
+}
+#Modal_add_task button{
+    display: flex;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    justify-content: center;
+    align-self: flex-end;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(3, 141, 134);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Modal_add_task button:hover{
+    background-color: rgb(3, 141, 134, 0.8);
+}
+#div_modal_task{
+    border-radius: 15px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 2%;
+    width: 50%;
+    height: auto;
+    max-height: 80%;
+    align-items: start;
+    justify-content: start;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    border: solid;
+    border-color: rgb(101, 96, 96);
+}
+#div_modal_task #btn_crear_task{
+    width: 20%;
+    height: 35px;
+    padding: 0 20px;
+    border-radius: 15px;
+    font-size: 13px;
+    margin-top: 1%;
+    margin-left: 80%;
+    border: none;
+    align-items: end;
+    background-color: rgb(3, 141, 134);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+#div_modal_task p{
+    margin: 0;
+    font-weight: 600;
+    color: rgb(101, 96, 96);
+    font-size: 14px;
+}
+
+#div_modal_task input,
+#div_modal_task select{
+    width: 100%;
+    padding: 10px;
+    border: solid;
+    border-color: rgb(101, 96, 96);
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+#div_modal_task input:focus,
+#div_modal_task select:focus{
+    outline: none;
+    border-color: rgb(3, 141, 134);
+    box-shadow: 0 0 5px rgba(3, 141, 134, 0.3);
+}
+
+.tareas-scroll {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}

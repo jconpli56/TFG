@@ -1,0 +1,186 @@
+#contenedorinit{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#blockinit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 50%;
+  border-radius: 15px;
+  border: solid;
+  background-color: rgb(224, 224, 224);
+  border-color: rgb(101, 96, 96);
+
+
+
+}
+#blockregist{
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  gap: 5px;
+  align-items: center;
+  width: 80%;
+}
+
+
+#blockregist p{
+  width:50%;
+  margin: 0; 
+  padding: 0; 
+  justify-content:end;
+  text-align: center;
+  font-size: 18px;
+}
+#blockregist button{
+  margin: 0;  
+  padding: 0; 
+  width: 50%;
+  align-content: center;
+  justify-content: start;
+  text-align: start;
+   font-size: 18px;
+  color: rgb(3, 141, 134);
+
+}
+
+
+
+.btnclass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 30%;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+  border-color: rgb(101, 96, 96);
+}
+.input{
+  width:70%;
+  height: 40%;
+  border-radius: 10px;
+  
+  border: solid;
+  border-color: rgb(101, 96, 96);
+   text-align: left;  
+   padding: 2%;
+}
+.btn_init{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 30%;
+  border-radius: 15px;
+  border: soli;
+  font-size: 15px;
+  background-color: transparent;
+    color: white;
+  border-color: rgb(101, 96, 96);
+  background-color: rgb(3, 141, 134);
+}
+.divinit{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 20%;
+  align-items: center;
+  width: 100%;
+}
+
+.divinit p{
+  width:70%;
+  align-content: start;
+  justify-content: start;
+}
+.divinit input{
+  align-content: end;
+  justify-content: end;
+}
+.pclass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 35%;
+}
+
+#Block_clave{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+  height: 100%;
+  backdrop-filter: blur(8px);
+ background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgb(101, 96, 96);
+  top: 0;
+  left: 0;
+
+}
+
+#div_M_Clave{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 30%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#block_off_mclave{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+#block_off_mclave button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+ 
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+    color: white;
+  border-color: rgb(101, 96, 96);
+  background-color: rgb(3, 141, 134);
+}
+#block_off_mclave h1{
+ width:80%;
+ height: 20%;
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+
+#inpmail{
+  width: 70%;
+  height: 20%;
+}
+
+#btnmail{
+  width: 70%;
+  height: 20%;
+}

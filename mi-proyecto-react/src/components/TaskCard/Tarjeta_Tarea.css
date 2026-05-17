@@ -1,0 +1,95 @@
+.tarjeta {
+  border: solid;
+  align-items: start;
+  justify-content: start;
+  border-color: rgb(101, 96, 96);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 8px 0;
+  background: rgb(224, 224, 224);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+p{
+ 
+}
+.tarjeta:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta:active {
+  cursor: grabbing;
+}
+
+.tarjeta-titulo {
+  margin: 0 0 5px 0;
+
+   font-size: 19px;
+   display: flex;
+  align-items: center;
+}
+
+.tarjeta-fecha {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 1%;
+ font-size: 19px;
+  color: rgb(101, 96, 96);
+}
+
+.tarjeta-estado {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+   font-size: 19px;
+}
+
+.tarjeta-estado span {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.tarjeta-editar {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: rgb(3, 141, 134);
+  transition: color 0.2s ease;
+}
+
+.tarjeta-editar:hover {
+  color: rgb(3, 141, 134, 0.8);
+}
+
+
+.tarjeta-pending {
+  background: #cf6e5d; 
+}
+
+.tarjeta-in_progress {
+  background: #ebcd4a;
+}
+
+.tarjeta-completed {
+  background: #77f577; 
+}
+
+#iconcalen{
+  width: 25px;
+  height:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#iconlapiz{
+  width: 25px;
+  height:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
