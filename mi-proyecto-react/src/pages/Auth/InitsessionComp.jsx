@@ -100,7 +100,7 @@ async function com_mail(){
                       {modal_clave && <div id='Block_clave'>
                         <div id='div_M_Clave'>
                             <div id='block_off_mclave'>
-                             <h1 className='titulo-modal'>Recuperar contraseña</h1> 
+                             <h3 className='titulo-modal'>Recuperar contraseña</h3> 
                              <button onClick={() => setModalClave(false)} className='btn_init'>X</button>
 
                             </div>
