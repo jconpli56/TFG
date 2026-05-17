@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Aquí cambias la URL del servidor
-const API_BASE_URL = 'http://178.156.0.167:3000'
+const API_BASE_URL = 'https://mibakend.duckdns.org'
 
 // Crear instancia de axios preconfigurada
 const apiClient = axios.create({
